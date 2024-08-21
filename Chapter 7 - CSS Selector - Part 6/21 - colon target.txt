@@ -1,0 +1,35 @@
+URLs with an # followed by an anchor name link to a certain element within a document. The element being linked to is the target element.
+
+The :target selector can be used to style the current active target element.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>
+        <a href="#news1">Jump to New content 1</a>
+    </p>
+
+    <p>
+        <a href="#news2">Jump to New content 2</a>
+    </p>
+
+    <div id="news1">News Content 1</div>
+
+    <div id="news2">News Content 2</div>
+
+</body>
+</html>
+
+
+index.css
+
+:target {
+    border: 2px solid #D4D4D4;
+    background-color: #e5eecc;
+}

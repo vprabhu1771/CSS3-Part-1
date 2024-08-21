@@ -1,0 +1,29 @@
+The :nth-last-child(n) selector matches every element that is the nth child, regardless of type, of its parent, counting from the last child.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>html5</p>
+
+    <p>css3</p>
+
+    <p>javascript</p>
+    
+    <p>jquery</p>
+
+</body>
+</html>
+
+
+index.css
+
+p:nth-last-child(2) {
+    color: red;
+    text-transform: uppercase;
+}

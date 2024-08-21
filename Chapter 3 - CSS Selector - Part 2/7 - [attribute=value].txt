@@ -1,0 +1,31 @@
+Selects all elements with target="_blank"
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <a target="_blank">html5</a>
+
+    <br>
+
+    <a target="">css3</a>
+
+    <br>
+
+    <a>javascript</a>
+
+</body>
+</html>
+
+
+index.css
+
+a[target=_blank] {
+    color: red;
+    text-transform: uppercase;
+}

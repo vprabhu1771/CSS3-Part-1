@@ -1,0 +1,29 @@
+Selects all <p> elements inside <div> elements
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div>
+        <p>html5</p>
+    </div>
+
+    <p>css3</p>
+
+    <p>javascript</p>
+
+</body>
+</html>
+
+
+index.css
+
+div p {
+    color: red;
+    text-transform: uppercase;
+}

@@ -1,0 +1,31 @@
+Selects all elements with a title attribute containing the word "flower"
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <a id="frontend">html5</a>
+
+    <br>
+
+    <a id="frontend">css3</a>
+
+    <br>
+
+    <a id="backend">php</a>
+
+</body>
+</html>
+
+
+index.css
+
+a[id~=frontend] {
+    color: red;
+    text-transform: uppercase;
+}

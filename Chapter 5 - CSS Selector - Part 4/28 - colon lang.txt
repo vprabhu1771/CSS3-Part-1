@@ -1,0 +1,24 @@
+The :lang() selector is used to select elements with a lang attribute with the specified value.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>I live in Italy.</p>
+    
+    <p lang="it">Ciao bella!</p>
+
+</body>
+</html>
+
+
+index.css
+
+p:lang(it) { 
+    background: yellow;
+}

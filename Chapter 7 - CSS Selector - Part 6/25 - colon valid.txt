@@ -1,0 +1,22 @@
+The :valid selector selects form elements with a value that validates according to the element's settings.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <input type="email" value="support@example.com">
+
+</body>
+</html>
+
+
+index.css
+
+input:valid {
+    background-color: yellow;
+}

@@ -1,0 +1,34 @@
+Selects all elements with name2 that is a descendant of an element with name1
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="under_line">
+        
+        <div class="bold">
+            I am from cuddalore
+        </div>
+        
+    </div>
+
+</body>
+</html>
+
+
+index.css
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.under_line .bold
+{
+    text-decoration: underline;
+    font-weight: bold;
+}

@@ -1,0 +1,30 @@
+The :first-child selector is used to select the specified selector, only if it is the first child of its parent.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>html5</p>
+
+    <p>css3</p>
+    
+    <p>javascript</p>
+
+</body>
+</html>
+
+
+index.css
+
+p:first-child {
+
+    color: red;
+
+    text-transform: uppercase;
+    
+}

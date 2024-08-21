@@ -1,0 +1,33 @@
+The :checked selector matches every checked <input> element (only for radio buttons and checkboxes) and <option> element.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <form action="">
+
+        <input type="radio" checked="checked" value="male" name="gender"> Male<br>
+
+        <input type="radio" value="female" name="gender"> Female<br>
+
+        <input type="checkbox" checked="checked" value="Bike"> I have a bike<br>
+
+        <input type="checkbox" value="Car"> I have a car 
+        
+    </form>
+
+</body>
+</html>
+
+
+index.css
+
+input:checked {
+    height: 20px;
+    width: 20px;
+}

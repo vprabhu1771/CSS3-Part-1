@@ -1,0 +1,29 @@
+The :only-child selector matches every element that is the only child of its parent.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div><p>html5</p></div>
+
+    <p>css3</p>
+
+    <div><p>javascript</p></div>
+    
+    <p>jquery</p>
+
+</body>
+</html>
+
+
+index.css
+
+p:only-child {
+    color: red;
+    text-transform: uppercase;
+}

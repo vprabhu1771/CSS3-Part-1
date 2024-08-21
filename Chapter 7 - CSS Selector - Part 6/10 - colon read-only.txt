@@ -1,0 +1,24 @@
+The :read-only selector selects elements which are "readonly".
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <input type="text" name="fname" placeholder="First name">
+    
+    <input type="text" name="lname" placeholder="Last name" readonly>
+
+</body>
+</html>
+
+
+index.css
+
+input:read-only {
+    background-color: yellow;
+}

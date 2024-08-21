@@ -1,0 +1,30 @@
+The :first-of-type selector matches every element that is the first child, of a particular type, of its parent.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>html5</p>
+
+    <p>css3</p>
+    
+    <p>javascript</p>
+
+</body>
+</html>
+
+
+index.css
+
+p:first-of-type {
+
+    color: red;
+
+    text-transform: uppercase;
+
+}

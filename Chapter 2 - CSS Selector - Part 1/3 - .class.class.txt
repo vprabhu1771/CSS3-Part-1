@@ -1,0 +1,30 @@
+Selects all elements with both name1 and name2 set within its class attribute
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="under_line bold">
+        I am from cuddalore
+    </div>
+
+</body>
+</html>
+
+
+index.css
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.under_line.bold
+{
+    text-decoration: underline;
+    font-weight: bold;
+}

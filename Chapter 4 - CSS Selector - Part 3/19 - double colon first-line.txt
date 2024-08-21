@@ -1,0 +1,26 @@
+The ::first-line selector is used to add a style to the first line of the specified selector.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>To stop the degradation of the planet's natural environment and to build a future in which humans live in harmony with nature, by; conserving the world's biological diversity, ensuring that the use of renewable natural resources is sustainable, and promoting the reduction of pollution and wasteful consumption.</p>
+
+</body>
+</html>
+
+
+index.css
+
+p::first-line {
+
+    color: red;
+
+    text-transform: uppercase;
+
+}

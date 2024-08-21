@@ -1,0 +1,29 @@
+The [attribute$=value] selector matches every element whose attribute value ends with a specified value.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p class="frontend">html5</p>
+
+    <p class="front">css3</p>
+
+    <p class="end">javascript</p>
+
+    <p class="backend">php</p>
+
+</body>
+</html>
+
+
+index.css
+
+p[class$="end"] {
+    color: red;
+    text-transform: uppercase;
+}

@@ -1,0 +1,43 @@
+Selects every <ul> element that is preceded by a <p> element
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div>Front End</div>
+
+    <ul>
+        <li>html5</li>
+        <li>css3</li>
+        <li>javascript</li>
+    </ul>
+
+    <p>Python Backend</p>
+
+    <ul>
+        <li>python</li>
+        <li>mysql</li>
+    </ul>
+    
+    <h1>Python Backend</h1>
+
+    <ul>
+        <li>php</li>
+        <li>mysql</li>
+    </ul>
+
+</body>
+</html>
+
+
+index.css
+
+p ~ ul {
+    color: red;
+    text-transform: uppercase;
+}

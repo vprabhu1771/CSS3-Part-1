@@ -1,0 +1,28 @@
+The class selector selects HTML elements with a specific class attribute.
+
+To select elements with a specific class, write a period (.) character, followed by the class name.
+
+Note: A class name cannot start with a number!
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="uppercase">
+        I am from cuddalore
+    </div>
+
+</body>
+</html>
+
+
+index.css
+
+.uppercase {
+    text-transform: uppercase;
+}

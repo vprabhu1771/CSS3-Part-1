@@ -1,0 +1,26 @@
+The :link selector is used to select unvisited links.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>html5</p>
+    
+    <a href="#">css3</a>
+
+    <p>javascript</p>
+
+</body>
+</html>
+
+
+index.css
+
+a:link {
+    background-color: yellow;
+}

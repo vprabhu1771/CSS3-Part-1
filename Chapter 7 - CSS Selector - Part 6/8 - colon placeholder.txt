@@ -1,0 +1,30 @@
+The ::placeholder selector selects form elements with placeholder text, and let you style the placeholder text.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <input type="text" name="fname" placeholder="First name">
+
+</body>
+</html>
+
+
+index.css
+
+::-webkit-input-placeholder { /* Edge */
+    color: red;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer */
+    color: red;
+}
+
+::placeholder {
+    color: red;
+}

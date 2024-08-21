@@ -1,0 +1,23 @@
+The :active selector is used to select and style the active link.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <a href="#">html5</a>
+
+</body>
+</html>
+
+
+index.css
+
+a:active {
+    color: red;
+    text-transform: uppercase;
+}

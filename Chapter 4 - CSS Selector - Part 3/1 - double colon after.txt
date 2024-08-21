@@ -1,0 +1,32 @@
+The ::after selector inserts something after the content of each selected element(s).
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>html5</p>
+    
+    <br>
+
+    <p>css3</p>
+
+    <br>
+
+    <p>javascript</p>
+
+</body>
+</html>
+
+
+index.css
+
+p::after {
+    color: red;
+    text-transform: uppercase;
+    content: " - Remember this";
+}

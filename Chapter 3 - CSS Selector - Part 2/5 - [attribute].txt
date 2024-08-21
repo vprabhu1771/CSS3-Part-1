@@ -1,0 +1,31 @@
+Selects all elements with a target attribute
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <a target="_blank">html5</a>
+
+    <br>
+
+    <a target="_blank">css3</a>
+
+    <br>
+    
+    <a>javascript</a>
+
+</body>
+</html>
+
+
+index.css
+
+a[target] {
+    color: red;
+    text-transform: uppercase;
+}

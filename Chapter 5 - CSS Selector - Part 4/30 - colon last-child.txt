@@ -1,0 +1,27 @@
+The :last-child selector matches every element that is the last child of its parent.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>html5</p>
+    
+    <p>css3</p>
+        
+    <p>javascript</p>
+
+</body>
+</html>
+
+
+index.css
+
+p:last-child {
+    color: red;
+    text-transform: uppercase;
+}

@@ -1,0 +1,30 @@
+The id selector uses the id attribute of an HTML element to select a specific element.
+
+The id of an element is unique within a page, so the id selector is used to select one unique element!
+
+To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+
+Note: An id name cannot start with a number!
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div id="uppercase">
+        I am from cuddalore
+    </div>
+
+</body>
+</html>
+
+
+index.css
+
+#uppercase {
+    text-transform: uppercase;
+}

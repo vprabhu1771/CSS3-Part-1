@@ -1,0 +1,31 @@
+The :not(selector) selector matches every element that is NOT the specified element/selector.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>html5</p>
+
+    <div>css3</div>
+
+    <span>javascript</span>
+
+</body>
+</html>
+
+
+index.css
+
+p {
+    color: #000000;
+}
+
+:not(p) { 
+    color: red;
+    text-transform: uppercase;
+}

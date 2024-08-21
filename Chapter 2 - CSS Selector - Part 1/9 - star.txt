@@ -1,0 +1,24 @@
+The universal selector (*) selects all HTML elements on the page.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div id="uppercase">
+        I am from cuddalore
+    </div>
+
+</body>
+</html>
+
+
+index.css
+
+* {
+    background-color: yellow;
+}

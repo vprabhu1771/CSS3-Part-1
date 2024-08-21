@@ -1,0 +1,22 @@
+The :invalid selector selects form elements with a value that does not validate according to the element's settings.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <input type="email" value="supportEmail">
+
+</body>
+</html>
+
+
+index.css
+
+input:invalid {
+    border: 2px solid red;
+}

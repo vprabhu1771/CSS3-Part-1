@@ -1,0 +1,31 @@
+Selects all elements with a lang attribute value equal to "en" or starting with "en-"
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p lang="en">Hello!</p>
+    
+    <p lang="en-us">Hi!</p>
+    
+    <p lang="en-gb">Ello!</p>
+    
+    <p lang="us">Hi!</p>
+    
+    <p lang="no">Hei!</p>
+
+</body>
+</html>
+
+
+index.css
+
+p[lang|=en] {
+    color: red;
+    text-transform: uppercase;
+}

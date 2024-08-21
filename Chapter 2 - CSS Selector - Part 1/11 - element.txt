@@ -1,0 +1,26 @@
+Set the text color of all <p> elements to red.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>html5</p>
+
+    <p>css3</p>
+
+    <p>javascript</p>
+
+</body>
+</html>
+
+
+index.css
+
+p {
+    color: red;
+}

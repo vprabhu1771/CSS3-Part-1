@@ -1,0 +1,32 @@
+The :empty selector matches every element that has no children (including text nodes).
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p></p>
+
+    <p>html5</p>
+
+    <p>css3</p>
+
+</body>
+</html>
+
+
+index.css
+
+p:empty {
+
+    width: 100px;
+
+    height: 20px;
+
+    background: #ff0000;
+    
+}

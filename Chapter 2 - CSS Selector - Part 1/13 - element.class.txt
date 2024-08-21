@@ -1,0 +1,27 @@
+In this example only <p> elements with class="uppercase" will be red and Uppercased Text: 
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p class="uppercase">html5</p>
+
+    <p class="uppercase">css3</p>
+
+    <p>javascript</p>
+
+</body>
+</html>
+
+
+index.css
+
+p.uppercase {
+    color: red;
+    text-transform: uppercase;
+}

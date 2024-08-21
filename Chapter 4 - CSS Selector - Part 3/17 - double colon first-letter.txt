@@ -1,0 +1,30 @@
+The ::first-letter selector is used to add a style to the first letter of the specified selector.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>html5</p>
+
+    <p>css3</p>
+    
+    <p>javascript</p>
+
+</body>
+</html>
+
+
+index.css
+
+p::first-letter {
+
+    color: red;
+
+    text-transform: uppercase;
+
+}

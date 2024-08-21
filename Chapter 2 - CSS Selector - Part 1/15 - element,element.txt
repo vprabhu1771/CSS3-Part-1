@@ -1,0 +1,31 @@
+The grouping selector selects all the HTML elements with the same style definitions.
+
+Look at the following CSS code (the h1, h2, and p elements have the same style definitions):
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div>
+        <p>html5</p>
+    </div>
+
+    <p>css3</p>
+
+    <p>javascript</p>
+
+</body>
+</html>
+
+
+index.css
+
+div,p {
+    color: red;
+    text-transform: uppercase;
+}

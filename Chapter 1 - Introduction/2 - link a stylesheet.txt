@@ -1,0 +1,35 @@
+To link a stylesheet (CSS file) to an HTML document, you can use the HTML `<link>` element in the `<head>` section of your HTML document. Here's how to do it:
+
+1. Create your CSS file: First, you need to create a separate CSS file with your styling rules. The file should have a .css extension, like "styles.css" for example.
+
+2. Place the CSS file in your project directory: Make sure the CSS file is located in the same directory as your HTML file or in a subdirectory if needed.
+
+3. Add the `<link>` element to your HTML document: In the `<head>` section of your HTML document, use the `<link>` element to reference your CSS file. The `<link>` element should be placed between the `<head>` tags, typically in the `<head>` section of your HTML file.
+
+Here's an example of how to link a stylesheet to an HTML document:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Page Title</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Your HTML content goes here -->
+</body>
+</html>
+
+
+In the example above, we use the `<link>` element with the following attributes:
+
+- `rel="stylesheet"`: Specifies that the linked document is a stylesheet.
+- `type="text/css"`: Specifies the type of the linked document, which is CSS in this case.
+- `href="styles.css"`: Specifies the path to the CSS file. You should replace "styles.css" with the actual filename and path to your CSS file.
+
+Make sure to adjust the `href` attribute to match the location of your CSS file within your project directory. Once you've linked the stylesheet, the styles defined in your CSS file will be applied to the HTML elements in your document.
+
+styles.css
+
+* {
+    background-color: black;
+}

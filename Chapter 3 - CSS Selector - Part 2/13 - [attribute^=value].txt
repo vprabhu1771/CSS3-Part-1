@@ -1,0 +1,25 @@
+Selects every <a> element whose class attribute value begins with "front"
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p class="frontend">html5</p>
+    <p class="frontend">css3</p>
+    <p class="end">javascript</p>
+
+</body>
+</html>
+
+
+index.css
+
+p[class^="front"] {
+    color: red;
+    text-transform: uppercase;
+}

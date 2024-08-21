@@ -1,0 +1,29 @@
+The :nth-of-type(n) selector matches every element that is the nth child, of a particular type, of its parent.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <p>html5</p>
+
+    <div>css3</div>
+
+    <p>javascript</p>
+    
+    <p>jquery</p>
+
+</body>
+</html>
+
+
+index.css
+
+p:nth-of-type(2) {
+    color: red;
+    text-transform: uppercase;
+}

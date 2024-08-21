@@ -1,0 +1,73 @@
+With the border-radius property, the borders get rounded corners:
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Action</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>Action</td>
+                <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Adventure</td>
+                <td>
+                    <a href="">Edit</a>
+                    <a href="">Delete</a>
+                </td>
+            </tr>
+
+        </tbody>
+        
+    </table>
+
+</body>
+</html>
+
+
+index.css
+
+table {
+    border-collapse:separate;
+    border:solid black 1px;
+    border-radius:6px;    
+}
+
+td, th {
+    border-left:solid black 1px;
+    border-top:solid black 1px;
+    padding: 10px;
+}
+
+th {
+    /* background-color: blue; */
+    border-top: none;
+}
+
+td:first-child, th:first-child {
+     border-left: none;
+}

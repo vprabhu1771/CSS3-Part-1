@@ -1,0 +1,30 @@
+The :hover selector is used to select elements when you mouse over them.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <a href="#">html5</a>
+
+    <br>
+
+    <a href="#">css3</a>
+
+    <br>
+
+    <a href="#">javascript</a>
+
+</body>
+</html>
+
+
+index.css
+
+a:hover {
+    background-color: yellow;
+}

@@ -1,0 +1,38 @@
+The ::marker selector selects the marker of a list item.
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <ul>
+
+        <li>html5</li>
+
+        <li>css3</li>
+        
+        <li>javascript</li>
+        
+    </ul>
+
+    <ol>
+
+        <li>php</li>
+
+        <li>mysql</li>
+
+    </ol>
+
+</body>
+</html>
+
+
+index.css
+
+::marker { 
+    color: red;
+}

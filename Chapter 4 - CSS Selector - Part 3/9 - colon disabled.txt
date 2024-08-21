@@ -1,0 +1,38 @@
+The :disabled selector matches every disabled element (mostly used on form elements).
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <form action="">
+
+        First name: <input type="text" disabled="disabled" value="Mickey"><br>
+
+        Last name: <input type="text" value="Mouse"><br>
+
+        Country: <input type="text" disabled="disabled" value="Disneyland">
+        
+    </form>
+
+</body>
+</html>
+
+
+index.css
+
+input[type=text]:enabled {
+
+    background: #ffff00;
+
+}
+  
+input[type=text]:disabled {
+
+    background: #dddddd;
+
+}

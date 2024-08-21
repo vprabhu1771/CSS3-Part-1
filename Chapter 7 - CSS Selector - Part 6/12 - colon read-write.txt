@@ -1,0 +1,24 @@
+The :read-write selector selects form elements which are "readable" and "writeable".
+
+index.html
+
+<head>
+    ...
+    ...
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <input type="text" name="fname" placeholder="First name">
+    
+    <input type="text" name="lname" placeholder="Last name" readonly>
+
+</body>
+</html>
+
+
+index.css
+
+input:read-write {
+    background-color: yellow;
+}
